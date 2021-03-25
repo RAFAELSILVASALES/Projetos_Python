@@ -1,0 +1,13 @@
+            CAPTURA DE IP.
+INSTALAR pip install sockets E CASO NA TENHA A BIBLIOTECA REQUESTS
+DEVE INSTALAR TAMBEM . pip install requests
+
+
+from socket" - Importamos o modulo requests da biblioteca socket para saber o nome da maquina e seu endereço ip interno
+
+"from requests import get" - importamos a biblioteca requests para usar a api do ipify e descobrir o seu IP externo
+
+Descobrindo os endereços do IP
+"hostname = socket.gethostname()" - Salva na variavel hostname o nome da sua maquina
+"ip_interno = socket.gethostbyname(hostname)" - Captura o seu ip interno
+"ip_externo = get('https://api.ipify.org').text" - Captura o seu ip externo através da api do ipify
