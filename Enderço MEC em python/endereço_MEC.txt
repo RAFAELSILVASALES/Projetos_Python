@@ -1,0 +1,6 @@
+Instale a biblioteca getmac
+Vá no terminal e execute esse comando: pip install getmac.
+from getmac import get_mac_address
+edMEC = get_mac_address()
+
+print(edMEC)
