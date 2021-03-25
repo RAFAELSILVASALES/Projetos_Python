@@ -1,0 +1,12 @@
+Criar uma voz falando um texto.
+intalar pip install gTTS e depois pip install playsound
+
+from gtts import gTTS - importar a biblioteca gtts
+
+from playsound import playsound - Importar a biblioteca playsound
+
+voz = gTTS("SEU TEXTO AQUI",lang='pt') - Definir o texto que a voz vai falar
+
+voz.save('voz.mp3') - Salvar a voz falando um texto
+
+playsound(voz.mp3) - Reproduzir o som
