@@ -1,0 +1,2 @@
+teste de velocidade:
+vai para o terminal: instale pip install speedtest-cli
