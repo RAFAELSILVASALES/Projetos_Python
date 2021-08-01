@@ -1,2 +1,2 @@
-# Projetos_Python
- Descobrindo as possibilidades que a linguagem Python tem a oferecer.
+<h1 align="center"> Projetos_Python </h1>
+ <p align="center">Descobrindo as possibilidades que a linguagem Python tem a oferecer.</p>
